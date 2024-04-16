@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.oed
     pkgs.age
     pkgs.vim
     pkgs.bashInteractive
