@@ -1,0 +1,12 @@
+#!/bin/bash
+
+dir="$1"
+
+file=$( ls -l $1 | cut -c1 | grep -v "d" | wc -l )
+folder=$( ls -l $1 | cut -c1 | grep "d" | wc -l)
+
+
+echo "현재 위치 : $1"
+echo "파일 $file개, 폴더 $folder개 입니다."
+
+

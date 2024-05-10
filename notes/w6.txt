@@ -51,7 +51,6 @@
   - ,j
   - x\{10\} # 10번
   - x\{1,10\}
-  - x\{1,10\}
 
   ##9. \(regex\)
   - back referencing이 가능하다.
@@ -61,7 +60,7 @@
   -'\(a\)\(b\)\2\1'
 
   ##10. regex1 \| regex2
-  - regex1 ir regex2
+  - regex1 or regex2
 
 #Q.
 1) a-f까지 매칭 ### grep '[a-f]'
@@ -77,7 +76,7 @@
 
 ##1. 확장
 [a-zA-Z0-9_] = \w
-\w (not)
+\W (not)
 \b : word boundary (앞뒤) h, o
 \b<regex>\b
   \< 앞 \> 뒤
@@ -193,7 +192,6 @@ A. sed 's/image\.jpg\./image/g' | sed 's/\([0-9]\)/\1.jpg/g'
   sed '160s/a/b/'
   sed '/apple/s///' #apple이 있는 부분에서 뭔가를 하는
   sed '/apple/!s///' # ! : not
-
   sed '160,200s/a/b/' (범위)
   sed '160,2s/a/b/' # 160만 수행하고 끝
 
