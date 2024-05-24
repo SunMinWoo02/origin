@@ -1,6 +1,6 @@
 
-name=$1
-result1=$(grep "$1" book.txt)
+name="$1"
+result1=$(grep -w "$1" book.txt)
 result2=$()
 result3=$()
 

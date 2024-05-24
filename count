@@ -2,8 +2,8 @@
 
 dir="$1"
 
-file=$( ls -l $1 | cut -c1 | grep -v "d" | wc -l )
-folder=$( ls -l $1 | cut -c1 | grep "d" | wc -l)
+file=$( ls -l "$1" | grep -v "d" | wc -l )
+folder=$( ls -l "$1" | grep "d" | wc -l )
 
 
 echo "현재 위치 : $1"
