@@ -19,6 +19,6 @@
 | 6주차 | [w6.txt](notes/w6.txt) |
 | 9주차 | [w9.txt](notes/w9.txt) |
 | 11주차 | [w11.md](notes/w11.md) |
-| 12주차 | [w11.md](notes/w12.md) |
+| 12주차 | [w12.md](notes/w12.md) |
 
 
