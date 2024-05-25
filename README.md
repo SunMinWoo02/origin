@@ -17,3 +17,8 @@
 | 4주차 | [w4.txt](notes/w4.txt) |
 | 5주차 | [w5.txt](notes/w5.txt) |
 | 6주차 | [w6.txt](notes/w6.txt) |
+| 9주차 | [w9.txt](notes/w9.txt) |
+| 11주차 | [w11.md](notes/w11.md) |
+| 12주차 | [w11.md](notes/w12.md) |
+
+
