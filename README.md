@@ -12,5 +12,8 @@
 | 주차 | 필기 파일 |
 |------|-----------|
 | 1주차 | [w1.txt](notes/w1.txt) |
-| 2주차 | [2주차]() |
-| 3주차 | [3주차]() |
+| 2주차 | [w2.txt](notes/w2.txt) |
+| 3주차 | [w3.txt](notes/w3.txt) |
+| 4주차 | [w4.txt](notes/w4.txt) |
+| 5주차 | [w5.txt](notes/w5.txt) |
+| 6주차 | [w6.txt](notes/w6.txt) |
