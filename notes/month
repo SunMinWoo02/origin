@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# 전달된 인수의 개수 확인
+if [ "$#" -eq 0 ]; then
+  echo "오류: 인수가 없습니다."
+  exit 1
+elif [ "$#" -gt 1 ]; then
+  echo "오류: 인수가 2개 이상입니다."
+  exit 1
+fi
+
+# 인수가 1개인 경우
+month=$1
+
+# 입력된 숫자를 달로 환산하여 출력
+case $month in
+  1) echo "Jan" ;;
+  2) echo "Feb" ;;
+  3) echo "Mar" ;;
+  4) echo "Apr" ;;
+  5) echo "May" ;;
+  6) echo "Jun" ;;
+  7) echo "Jul" ;;
+  8) echo "Aug" ;;
+  9) echo "Sep" ;;
+  10) echo "Oct" ;;
+  11) echo "Nov" ;;
+  12) echo "Dec" ;;
+  *) echo "존재하지 않는 달입니다." ;;
+esac

@@ -53,7 +53,7 @@ mv $var ${var:0:7}.md
 
 Q. 5를 변수에 담고 활용해서 15를 변수에 담아보라.
   five=5
-  fifteen=$(( five + 10))
+  fifteen=$(( five + 10 ))
 
 - $(( ten = ten + 1 ))
   - 초기값 0

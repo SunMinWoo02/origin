@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# 현재 시간 가져오기 (24시간 형식)
+current_hour=$(date +%H)
+
+# 시간대에 따라 인사말 출력
+if [ $current_hour -ge 0 ] && [ $current_hour -lt 9 ]
+then
+  echo "굿모닝"
+  exit 0
+elif [ $current_hour -ge 9 ] && [ $current_hour -lt 17 ]
+then
+  echo "굿애프터눈"
+  exit 1
+else
+  echo "굿이브닝"
+  exit 2
+fi
+
