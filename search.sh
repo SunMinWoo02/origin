@@ -15,7 +15,9 @@ name=$1
 phonenumber=$2
 
 # 전화번호가 숫자인지 확인하기
-if ! [ "$phonenumber" == ^[0-9]-[0-9]-[0-9]$ ]
+pattern="^[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}$"
+
+if ! [[ $phonenumber =~ $pattern ]]
 then
     echo "전화번호가 숫자가 아닙니다."
     exit 2
