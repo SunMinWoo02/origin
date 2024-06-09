@@ -58,5 +58,6 @@ then
      # 새로운 전화번호 추가하고 이름순으로 정렬
     echo "$name $phonenumber $region" >> "$phonebook"
     sort -o "$phonebook" "$phonebook"
+    echo "$phonenumber가 전화번호부에 추가되었습니다."
     exit 4
 fi
